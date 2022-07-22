@@ -1,0 +1,16 @@
+{
+    "greetings": {
+        "scenes": "Сцены",
+        "alt_stages": "Альтернативные площадки",
+        "settings": "Настройки"
+
+    },
+    "scenes": {
+        "blue": "Синяя сцена",
+        "violet": "Фиолетовая сцена",
+        "white": "Белая сцена",
+        "radio_records": "Radio records stage",
+        "all_scenes": "Все сцены"
+    },
+    "back": "Назад"
+}
