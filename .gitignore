@@ -1,3 +1,4 @@
 config/
 venv/
 Admin/admin_keyboards/
+**/__pycache__

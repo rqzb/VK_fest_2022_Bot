@@ -24,9 +24,9 @@ class Main(StatesGroup):
 async def start(message: types.Message, state: FSMContext):
     await Main.start.set()
 
-    if datetime.now().day !=23 and datetime.now().day !=24 and datetime.now().year == 2022:
-        await message.answer(messages['sad'], reply_markup=kb.sad)
-        return
+    # if datetime.now().day !=23 and datetime.now().day !=24 and datetime.now().year == 2022:
+    #     await message.answer(messages['sad'], reply_markup=kb.sad)
+    #     return
 
     await message.answer(messages['greetings'], reply_markup=kb.start_kb)
     

@@ -1,11 +1,13 @@
 from datetime import datetime
 import json
 
-current_datetime = datetime.now()
-with open(f"Users/json/{current_datetime.day}_timetable.json", 'r', encoding='utf-8') as file:
-    stages_timetable = json.load(file)
 
 def print_formatted(message:str) -> str:
+    current_datetime = datetime.now()
+
+    with open(f"Users/json/{current_datetime.day}_timetable.json", 'r', encoding='utf-8') as file:
+        stages_timetable = json.load(file)
+    
     formatted_string = ''
 
     current_time = current_datetime.strftime("%H:%M")
